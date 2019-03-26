@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "testcafe chrome test/",
+    "test:ci": "testcafe 'chrome:headless' test/",
     "test:live": "npm run test -- --live"
   },
   "keywords": [],
