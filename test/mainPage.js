@@ -23,5 +23,5 @@ test('More events button changes amout of events', async t => {
 });
 
 test('Event link should open event page', async t => {
-    await clickRandomElement(t, '.calendar__item:not(.calendar__item--hidden) .calendar__event a'); 
+    await clickRandomElement(t, '.cdalendar__item:not(.calendar__item--hidden) .calendar__event a'); 
 });
